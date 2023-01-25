@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytRecentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tvRecentPostTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_14dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:text="|"
+        android:textColor="#EEE6E6"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_2dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_toRightOf="@id/tvRecentPostTag"
+        android:text="@string/recent_posts"
+        android:textColor="#F1E9E9"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/txt_see_more_recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/see_more" />
+
+    <include
+        layout="@layout/fragment_recent_post_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRecentPostTag"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_4dp"></include>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "331625584282",
+    "firebase_url": "https://wizimatic-3cece.firebaseio.com",
+    "project_id": "wizimatic-3cece",
+    "storage_bucket": "wizimatic-3cece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331625584282:android:2527f63fbb81e2b1747123",
+        "android_client_info": {
+          "package_name": "com.wizimaticng.wizimatic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331625584282-9sdpnkl7hlf0o86ebe56ihpqsfhgivmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rWhnyD744huf9sZIAdbr_ZCPp3nPACc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331625584282-9sdpnkl7hlf0o86ebe56ihpqsfhgivmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
